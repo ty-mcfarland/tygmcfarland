@@ -1,0 +1,41 @@
+{
+    "appData": {
+        "routes": [
+            {
+            "description": "About",
+            "route": "about"
+        },
+        {
+            "description": "Work Experience",
+            "route": "experience"
+        },
+        {
+            "description": "Education",
+            "route": "education"
+        }
+        ],
+        "resume_sections": [
+            {
+                "side_panel": {
+                    "image_path": "assets/profile.jpeg"
+                },
+                "content_panel": {
+                    "first_name": "Ty",
+                    "last_name": "McFarland",
+                    "description": "Front End Web Developer & Decent Guy",
+                    "location": "New York City, NY",
+                    "email": "tee_why@msn.com"
+                }
+            },
+            {
+                "side_panel": {
+                    "header": "INTRO",
+                    "tag_line": "Who am I"
+                },
+                "content-panel": {
+                    "copy": "Now, I've done a lot of things but, I've been a front end web developer for just about 5 years now.  I was a cartographer at the time for AAA (you know, those old Atlases your Grandparents may have used when you were young...I made those) and my manager at the time was walking past my cubicle towards whatever important thing he was heading to, and I stood up and asked 'What could I learn that would benefit the Association the most in the future?'  Without breaking stride he said two words: Web Development.  So the next semester at the local State College"
+                }
+            }
+        ]
+    }
+}

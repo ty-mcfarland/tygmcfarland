@@ -1,0 +1,32 @@
+<div fxFlex fxLayout="column" class="app-container">
+  <section *ngFor="let section of resumeSections" fxLayout="row">
+    <div fxFlex="30" class="side-content" fxLayout="column">
+
+
+      <div fxFlex fxLayout="column" *ngIf="section.side_panel.image_path" class="profile-pic-container">
+        <div fxFlex="50" fxLayout="row"></div>
+        <div fxFlex fxLayout="row">
+          <div fxFlex="50"></div>
+          <img class="profile-image" src="assets/profile.jpeg">
+        </div>
+      </div>
+      
+      <div fxLayout="row" fxFlex>
+        <span fxFlex></span>
+        <span fxFlex="10">{{section.side_panel.header}}</span>
+      </div>
+      <div fxLayout="row" fxFlex>
+        <span fxFlex></span>
+        <span fxFlex="10">{{section.side_panel.tag_line}}</span>
+      </div>
+    </div>
+    <div fxFlex="70" class="main-content">
+      <article>
+        <header>
+          
+        </header>
+      </article>
+    </div>
+  </section>
+</div>
+

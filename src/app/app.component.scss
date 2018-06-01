@@ -1,0 +1,32 @@
+@import '../theme.scss';
+@import '../mixins.scss';
+
+@include candy-carousel-theme($tmc-light-theme);
+
+.app-container {
+    width: 100%;
+    height: 100%;
+
+    section {
+        height: 600px;
+        min-height: 400px;
+
+    }
+
+    section:first-child {
+        background-color: rgb(44, 44, 44);
+
+        .side-content {
+            .profile-pic-container {
+                .profile-image {
+                    border-radius: 50%;
+                    height: 200px;
+                    width: 200px;
+                }
+            }   
+        }
+    }
+    section:nth-of-type(2) {
+        background-color: rgb(42, 42, 42);
+    }
+}

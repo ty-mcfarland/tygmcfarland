@@ -1,0 +1,17 @@
+@import './theme.scss';
+
+@mixin candy-carousel-theme($tmc-light-theme) {
+    // Extract whichever individual palettes you need from the theme.
+    $primary: map-get($tmc-light-theme, primary);
+    $accent: map-get($tmc-light-theme, accent);
+  
+    // Use mat-color to extract individual colors from a palette as necessary.
+    .profile-image-container {
+      background-color: mat-color($primary);
+      border-color: mat-color($accent);
+    }
+
+    .active {
+        color: mat-color($primary);
+    }
+  }
